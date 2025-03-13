@@ -1,0 +1,55 @@
+
+.imgbarlog {
+    width: 18px
+}
+
+.icon-barslide {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    display: none
+}
+
+.icon-barslide a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px
+}
+
+.icon-barslide a:hover {
+    background-color: green
+}
+
+.facebook {
+    background: #3b5998;
+    color: white
+}
+
+.fmesseger {
+    background: #0078ff;
+    color: white
+}
+
+.intagram {
+    background: #5851db;
+    color: white
+}
+
+.whatsapp {
+    background: #4ac959;
+    color: white
+}
+
+.telefono {
+    background: #FFB000
+}
+
+@media only screen and (min-width:992px) {
+    .icon-barslide {
+        display: block
+    }
+}

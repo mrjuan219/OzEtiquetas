@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CACN,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,qBAAqB,CAC1B,WAAW,CAAE,MAAM,CAGvB,UAAU,CACN,WAAW,CAAE,MAAM,CACnB,GAAG,CAAE,uBAAuB,CAC5B,WAAW,CAAE,IAAI,CAGrB,UAAU,CACN,WAAW,CAAE,OAAO,CACpB,GAAG,CAAE,8BAA8B,CACnC,WAAW,CAAE,MAAM",
+    "sources": [
+        "../sass/fonts.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}

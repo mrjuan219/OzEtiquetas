@@ -1,0 +1,142 @@
+$azulAgua: #257fc2;
+$azulOscuro: #1b294b;
+
+.modal,
+footer {
+
+    .modal-content {
+        border-radius: 20px;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .modal-body {
+            width: 100%;
+        }
+    }
+
+    .cerrar_modal {
+        font-size: 3rem;
+        font-weight: 400;
+        background: transparent;
+        border: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+    }
+
+    .titulo_modal {
+        font-size: 4rem;
+        padding: 1rem 0 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+
+    }
+
+    .contenedor_formulario.login,
+    .contenedor_formulario.registro {
+        width: 50%;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: dimgray;
+            font-size: 1.6rem;
+        }
+
+        input,
+        select {
+            margin: 0 0 1rem;
+            font-size: 1.8rem;
+            color: $azulAgua;
+            border: 0;
+            padding: 0.3rem;
+            border-bottom: 1px solid dimgray;
+        }
+
+        input::placeholder {
+            color: $azulAgua !important;
+        }
+
+        select::placeholder {
+            color: $azulAgua !important;
+        }
+    }
+
+    .contenedor_formulario.registro.servicio {
+        width: 70%;
+
+        input,
+        select {
+            width: 100%;
+        }
+
+        .boton {
+            margin: 1.5rem 0;
+            margin-top: 2.5rem !important;
+        }
+
+    }
+
+    .prev {
+        padding: 2rem;
+    }
+
+    .custom-file-label::after {
+        content: 'Buscar' !important;
+    }
+
+    .contenedor-botones {
+        justify-content: space-around;
+    }
+
+    .opciones-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        color: dimgray;
+        margin: 4rem auto 0;
+
+        p,
+        b {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        p:first-child {
+            color: #009965;
+        }
+
+        b {
+            margin: 0 1rem;
+        }
+
+        p:hover {
+            color: $azulOscuro;
+            cursor: pointer;
+            user-select: none;
+        }
+
+    }
+
+
+    .boton {
+        border: 0;
+        margin-top: 2rem;
+    }
+
+}
+
+.modal-backdrop {
+    background-color: $azulOscuro !important;
+}
